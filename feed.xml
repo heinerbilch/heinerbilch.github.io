@@ -6,13 +6,13 @@
     <atom:link href="https://bilch.eu/feed.xml" rel="self" type="application/rss+xml" />
     <description>BILCH Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Mo, 14 Dez 2015 16:33:59 +0100</pubDate>
-    <lastBuildDate>Mo, 14 Dez 2015 16:33:59 +0100</lastBuildDate>
+    <pubDate>Do., 22 Okt. 2026 22:19:04 +0200</pubDate>
+    <lastBuildDate>Do., 22 Okt. 2026 22:19:04 +0200</lastBuildDate>
 
     <item>
       <title>Sweep3D benchmark</title>
       <link>https://bilch.eu/blog/2015/sweep3d-benchmark.html</link>
-      <pubDate>Di, 25 Aug 2015 00:00:00 +0200</pubDate>
+      <pubDate>Di., 25 Aug. 2015 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2015/sweep3d-benchmark.html</guid>
       	<description>
 	&lt;p&gt;The benchmark was run on a first generation Intel core i7 under FreeBSD 10.1&lt;/p&gt;
@@ -318,7 +318,7 @@ checking for cc option to accept ANSI C... none needed
 checking for style of include used by make... GNU
 checking dependency style of cc... gcc3
 checking how to run the C preprocessor... cpp
-checking if cpp works as expected... cpp: warning: argument unused during compilation: &amp;#39;-E&amp;#39;
+checking if cpp works as expected... cpp: warning: argument unused during compilation: &apos;-E&apos;
 yes
 
    Build type: sequential
@@ -349,76 +349,76 @@ cpp  -P msg_stuff.cpp &amp;gt; msg_stuff.f
 --- initialize.o ---
 --- inner.o ---
 --- decomp.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o decomp.o `test -f &amp;#39;decomp.f&amp;#39; || echo &amp;#39;./&amp;#39;`decomp.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o decomp.o `test -f &apos;decomp.f&apos; || echo &apos;./&apos;`decomp.f
 --- flux_err.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o flux_err.o `test -f &amp;#39;flux_err.f&amp;#39; || echo &amp;#39;./&amp;#39;`flux_err.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o flux_err.o `test -f &apos;flux_err.f&apos; || echo &apos;./&apos;`flux_err.f
 --- inner_auto.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o inner_auto.o `test -f &amp;#39;inner_auto.f&amp;#39; || echo &amp;#39;./&amp;#39;`inner_auto.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o inner_auto.o `test -f &apos;inner_auto.f&apos; || echo &apos;./&apos;`inner_auto.f
 --- octant.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o octant.o `test -f &amp;#39;octant.f&amp;#39; || echo &amp;#39;./&amp;#39;`octant.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o octant.o `test -f &apos;octant.f&apos; || echo &apos;./&apos;`octant.f
 --- source.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o source.o `test -f &amp;#39;source.f&amp;#39; || echo &amp;#39;./&amp;#39;`source.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o source.o `test -f &apos;source.f&apos; || echo &apos;./&apos;`source.f
 --- driver.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o driver.o `test -f &amp;#39;driver.f&amp;#39; || echo &amp;#39;./&amp;#39;`driver.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o driver.o `test -f &apos;driver.f&apos; || echo &apos;./&apos;`driver.f
 --- initialize.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o initialize.o `test -f &amp;#39;initialize.f&amp;#39; || echo &amp;#39;./&amp;#39;`initialize.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o initialize.o `test -f &apos;initialize.f&apos; || echo &apos;./&apos;`initialize.f
 --- inner.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o inner.o `test -f &amp;#39;inner.f&amp;#39; || echo &amp;#39;./&amp;#39;`inner.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o inner.o `test -f &apos;inner.f&apos; || echo &apos;./&apos;`inner.f
 --- read_input.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o read_input.o `test -f &amp;#39;read_input.f&amp;#39; || echo &amp;#39;./&amp;#39;`read_input.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o read_input.o `test -f &apos;read_input.f&apos; || echo &apos;./&apos;`read_input.f
 --- sweep.o ---
 --- timers.o ---
 --- sweep.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o sweep.o `test -f &amp;#39;sweep.f&amp;#39; || echo &amp;#39;./&amp;#39;`sweep.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o sweep.o `test -f &apos;sweep.f&apos; || echo &apos;./&apos;`sweep.f
 --- timers.o ---
-source=&amp;#39;timers.c&amp;#39; object=&amp;#39;timers.o&amp;#39; libtool=no  depfile=&amp;#39;.deps/timers.Po&amp;#39; tmpdepfile=&amp;#39;.deps/timers.TPo&amp;#39;  depmode=gcc3 /bin/sh ./depcomp  cc -DHAVE_CONFIG_H -I. -I. -I.      -O2 -pipe  -fstack-protector -fno-strict-aliasing -c `test -f &amp;#39;timers.c&amp;#39; || echo &amp;#39;./&amp;#39;`timers.c
+source=&apos;timers.c&apos; object=&apos;timers.o&apos; libtool=no  depfile=&apos;.deps/timers.Po&apos; tmpdepfile=&apos;.deps/timers.TPo&apos;  depmode=gcc3 /bin/sh ./depcomp  cc -DHAVE_CONFIG_H -I. -I. -I.      -O2 -pipe  -fstack-protector -fno-strict-aliasing -c `test -f &apos;timers.c&apos; || echo &apos;./&apos;`timers.c
 --- msg_stuff.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o msg_stuff.o `test -f &amp;#39;msg_stuff.f&amp;#39; || echo &amp;#39;./&amp;#39;`msg_stuff.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o msg_stuff.o `test -f &apos;msg_stuff.f&apos; || echo &apos;./&apos;`msg_stuff.f
 msg_stuff.f:160.30:
 
-    call rcv_real(-1, y, 1, msgtag, info)                       
-           1
-Warning: Rank mismatch in argument &amp;#39;value&amp;#39; at (1) (rank-1 and scalar)
+	call rcv_real(-1, y, 1, msgtag, info)                       
+			  1
+Warning: Rank mismatch in argument &apos;value&apos; at (1) (rank-1 and scalar)
 msg_stuff.f:166.26:
 
      call snd_real(1, value, 1, msgtag, info)                       
-             1
-Warning: Rank mismatch in argument &amp;#39;value&amp;#39; at (1) (rank-1 and scalar)
+		      1
+Warning: Rank mismatch in argument &apos;value&apos; at (1) (rank-1 and scalar)
 msg_stuff.f:172.22:
 
   call bcast_real(value, 1, msgtag, 1, info)                        
-         1
-Warning: Rank mismatch in argument &amp;#39;value&amp;#39; at (1) (rank-1 and scalar)
+		  1
+Warning: Rank mismatch in argument &apos;value&apos; at (1) (rank-1 and scalar)
 msg_stuff.f:195.29:
 
-    call rcv_real(i, y, 1, msgtag, info)                        
-          1
-Warning: Rank mismatch in argument &amp;#39;value&amp;#39; at (1) (rank-1 and scalar)
+	call rcv_real(i, y, 1, msgtag, info)                        
+			 1
+Warning: Rank mismatch in argument &apos;value&apos; at (1) (rank-1 and scalar)
 msg_stuff.f:201.26:
 
      call snd_real(1, value, 1, msgtag, info)                       
-             1
-Warning: Rank mismatch in argument &amp;#39;value&amp;#39; at (1) (rank-1 and scalar)
+		      1
+Warning: Rank mismatch in argument &apos;value&apos; at (1) (rank-1 and scalar)
 msg_stuff.f:207.22:
 
   call bcast_real(value, 1, msgtag, 1, info)                        
-         1
-Warning: Rank mismatch in argument &amp;#39;value&amp;#39; at (1) (rank-1 and scalar)
+		  1
+Warning: Rank mismatch in argument &apos;value&apos; at (1) (rank-1 and scalar)
 msg_stuff.f:230.30:
 
-    call rcv_real(-1, y, 1, msgtag, info)                       
-           1
-Warning: Type mismatch in argument &amp;#39;value&amp;#39; at (1); passed INTEGER(4) to REAL(8)
+	call rcv_real(-1, y, 1, msgtag, info)                       
+			  1
+Warning: Type mismatch in argument &apos;value&apos; at (1); passed INTEGER(4) to REAL(8)
 msg_stuff.f:236.26:
 
      call snd_real(1, value, 1, msgtag, info)                       
-             1
-Warning: Type mismatch in argument &amp;#39;value&amp;#39; at (1); passed INTEGER(4) to REAL(8)
+		      1
+Warning: Type mismatch in argument &apos;value&apos; at (1); passed INTEGER(4) to REAL(8)
 msg_stuff.f:242.21:
 
   call bcast_int(value, 1, msgtag, 1, info)                         
-        1
-Warning: Rank mismatch in argument &amp;#39;value&amp;#39; at (1) (rank-1 and scalar)
+		 1
+Warning: Rank mismatch in argument &apos;value&apos; at (1) (rank-1 and scalar)
 --- sweep ---
 gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48  -Wl,-rpath=/usr/local/lib/gcc48  -L/usr/local/lib/gcc48 -B/usr/local/bin -fstack-protector -o sweep  decomp.o flux_err.o  inner_auto.o octant.o source.o  driver.o initialize.o inner.o  read_input.o sweep.o timers.o msg_stuff.o  
 ===========================================================================
@@ -489,6 +489,7 @@ The operation will free 55 KiB.
 ===========================================================================
 ====&amp;gt;&amp;gt; Checking for extra files and directories
 &lt;/code&gt;&lt;/pre&gt;
+
 	</description>
     </item>
 

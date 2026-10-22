@@ -361,7 +361,7 @@ checking for cc option to accept ANSI C... none needed
 checking for style of include used by make... GNU
 checking dependency style of cc... gcc3
 checking how to run the C preprocessor... cpp
-checking if cpp works as expected... cpp: warning: argument unused during compilation: &#39;-E&#39;
+checking if cpp works as expected... cpp: warning: argument unused during compilation: '-E'
 yes
 
    Build type: sequential
@@ -392,76 +392,76 @@ cpp  -P msg_stuff.cpp &gt; msg_stuff.f
 --- initialize.o ---
 --- inner.o ---
 --- decomp.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o decomp.o `test -f &#39;decomp.f&#39; || echo &#39;./&#39;`decomp.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o decomp.o `test -f 'decomp.f' || echo './'`decomp.f
 --- flux_err.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o flux_err.o `test -f &#39;flux_err.f&#39; || echo &#39;./&#39;`flux_err.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o flux_err.o `test -f 'flux_err.f' || echo './'`flux_err.f
 --- inner_auto.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o inner_auto.o `test -f &#39;inner_auto.f&#39; || echo &#39;./&#39;`inner_auto.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o inner_auto.o `test -f 'inner_auto.f' || echo './'`inner_auto.f
 --- octant.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o octant.o `test -f &#39;octant.f&#39; || echo &#39;./&#39;`octant.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o octant.o `test -f 'octant.f' || echo './'`octant.f
 --- source.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o source.o `test -f &#39;source.f&#39; || echo &#39;./&#39;`source.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o source.o `test -f 'source.f' || echo './'`source.f
 --- driver.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o driver.o `test -f &#39;driver.f&#39; || echo &#39;./&#39;`driver.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o driver.o `test -f 'driver.f' || echo './'`driver.f
 --- initialize.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o initialize.o `test -f &#39;initialize.f&#39; || echo &#39;./&#39;`initialize.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o initialize.o `test -f 'initialize.f' || echo './'`initialize.f
 --- inner.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o inner.o `test -f &#39;inner.f&#39; || echo &#39;./&#39;`inner.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o inner.o `test -f 'inner.f' || echo './'`inner.f
 --- read_input.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o read_input.o `test -f &#39;read_input.f&#39; || echo &#39;./&#39;`read_input.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o read_input.o `test -f 'read_input.f' || echo './'`read_input.f
 --- sweep.o ---
 --- timers.o ---
 --- sweep.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o sweep.o `test -f &#39;sweep.f&#39; || echo &#39;./&#39;`sweep.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o sweep.o `test -f 'sweep.f' || echo './'`sweep.f
 --- timers.o ---
-source=&#39;timers.c&#39; object=&#39;timers.o&#39; libtool=no  depfile=&#39;.deps/timers.Po&#39; tmpdepfile=&#39;.deps/timers.TPo&#39;  depmode=gcc3 /bin/sh ./depcomp  cc -DHAVE_CONFIG_H -I. -I. -I.      -O2 -pipe  -fstack-protector -fno-strict-aliasing -c `test -f &#39;timers.c&#39; || echo &#39;./&#39;`timers.c
+source='timers.c' object='timers.o' libtool=no  depfile='.deps/timers.Po' tmpdepfile='.deps/timers.TPo'  depmode=gcc3 /bin/sh ./depcomp  cc -DHAVE_CONFIG_H -I. -I. -I.      -O2 -pipe  -fstack-protector -fno-strict-aliasing -c `test -f 'timers.c' || echo './'`timers.c
 --- msg_stuff.o ---
-gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o msg_stuff.o `test -f &#39;msg_stuff.f&#39; || echo &#39;./&#39;`msg_stuff.f
+gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48 -c -o msg_stuff.o `test -f 'msg_stuff.f' || echo './'`msg_stuff.f
 msg_stuff.f:160.30:
 
-    call rcv_real(-1, y, 1, msgtag, info)                       
-           1
-Warning: Rank mismatch in argument &#39;value&#39; at (1) (rank-1 and scalar)
+	call rcv_real(-1, y, 1, msgtag, info)                       
+			  1
+Warning: Rank mismatch in argument 'value' at (1) (rank-1 and scalar)
 msg_stuff.f:166.26:
 
      call snd_real(1, value, 1, msgtag, info)                       
-             1
-Warning: Rank mismatch in argument &#39;value&#39; at (1) (rank-1 and scalar)
+		      1
+Warning: Rank mismatch in argument 'value' at (1) (rank-1 and scalar)
 msg_stuff.f:172.22:
 
   call bcast_real(value, 1, msgtag, 1, info)                        
-         1
-Warning: Rank mismatch in argument &#39;value&#39; at (1) (rank-1 and scalar)
+		  1
+Warning: Rank mismatch in argument 'value' at (1) (rank-1 and scalar)
 msg_stuff.f:195.29:
 
-    call rcv_real(i, y, 1, msgtag, info)                        
-          1
-Warning: Rank mismatch in argument &#39;value&#39; at (1) (rank-1 and scalar)
+	call rcv_real(i, y, 1, msgtag, info)                        
+			 1
+Warning: Rank mismatch in argument 'value' at (1) (rank-1 and scalar)
 msg_stuff.f:201.26:
 
      call snd_real(1, value, 1, msgtag, info)                       
-             1
-Warning: Rank mismatch in argument &#39;value&#39; at (1) (rank-1 and scalar)
+		      1
+Warning: Rank mismatch in argument 'value' at (1) (rank-1 and scalar)
 msg_stuff.f:207.22:
 
   call bcast_real(value, 1, msgtag, 1, info)                        
-         1
-Warning: Rank mismatch in argument &#39;value&#39; at (1) (rank-1 and scalar)
+		  1
+Warning: Rank mismatch in argument 'value' at (1) (rank-1 and scalar)
 msg_stuff.f:230.30:
 
-    call rcv_real(-1, y, 1, msgtag, info)                       
-           1
-Warning: Type mismatch in argument &#39;value&#39; at (1); passed INTEGER(4) to REAL(8)
+	call rcv_real(-1, y, 1, msgtag, info)                       
+			  1
+Warning: Type mismatch in argument 'value' at (1); passed INTEGER(4) to REAL(8)
 msg_stuff.f:236.26:
 
      call snd_real(1, value, 1, msgtag, info)                       
-             1
-Warning: Type mismatch in argument &#39;value&#39; at (1); passed INTEGER(4) to REAL(8)
+		      1
+Warning: Type mismatch in argument 'value' at (1); passed INTEGER(4) to REAL(8)
 msg_stuff.f:242.21:
 
   call bcast_int(value, 1, msgtag, 1, info)                         
-        1
-Warning: Rank mismatch in argument &#39;value&#39; at (1) (rank-1 and scalar)
+		 1
+Warning: Rank mismatch in argument 'value' at (1) (rank-1 and scalar)
 --- sweep ---
 gfortran48  -O -Wl,-rpath=/usr/local/lib/gcc48  -Wl,-rpath=/usr/local/lib/gcc48  -L/usr/local/lib/gcc48 -B/usr/local/bin -fstack-protector -o sweep  decomp.o flux_err.o  inner_auto.o octant.o source.o  driver.o initialize.o inner.o  read_input.o sweep.o timers.o msg_stuff.o  
 ===========================================================================
@@ -531,7 +531,8 @@ The operation will free 55 KiB.
 [101Ramd64-default] [1/1] Deleting files for sweep3d-2.2b... done
 ===========================================================================
 ====&gt;&gt; Checking for extra files and directories
-</code></pre></p>
+</code></pre>
+</p>
 	
 	<hr />
 	
@@ -543,7 +544,7 @@ The operation will free 55 KiB.
     
     <div id="footer">
       <div class="container">
-        <p class="muted credit">&copy; 2014 | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.1.1</a> | Baked with <a href="http://jbake.org">JBake v2.4.0</a></p>
+        <p class="muted credit">&copy; 2014 | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.1.1</a> | Baked with <a href="http://jbake.org">JBake v2.7.0</a></p>
       </div>
     </div>
     

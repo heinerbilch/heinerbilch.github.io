@@ -61,11 +61,13 @@
 
 	<p><p>How can an application use a multiprocessor effectively ?</p>
 <h1>OS multiprocessor performance evaluation</h1>
-<p>Current <a href="http://people.freebsd.org/~kris/scaling/dfly.html">operating systems</a> can handle multiprocessors well. Performance evaluation is typically done with benchmarks. Because of simplicity Sweep3D will be used. Later it is planned to use some of the <a href="https://asc.llnl.gov/sequoia/benchmarks/">ASC benchmarks</a> and other benchmarks.</p>
+<p>Current <a href="http://people.freebsd.org/~kris/scaling/dfly.html">operating systems</a> can handle multiprocessors well. Performance evaluation is typically done with benchmarks. Because of simplicity Sweep3D will be used. Later it is planned to use some of the  <a href="https://asc.llnl.gov/sequoia/benchmarks/">ASC benchmarks</a> and other benchmarks.</p>
 <h2>Sweep3D</h2>
-<p>Explicit parallelism is by domain decomposition and message-passing. This version of <a href="blog/2015/sweep3d-benchmark.html">Sweep3D</a> supports MPI message passing libraries as well as a single processor version. Here is a <a href="http://github.com/heinerbilch/sweep3d">description</a> Here are <a href="http://www.cs.rice.edu/~alc/superpages/">older benchmarks</a> where I found the starting point.<br/><img src="ASC_co_sm.jpg" alt="ASC Logo" /></p>
+<p>Explicit parallelism is by domain decomposition and message-passing. This version of <a href="blog/2015/sweep3d-benchmark.html">Sweep3D</a> supports MPI message passing libraries as well as a single processor version. Here is a <a href="http://github.com/heinerbilch/sweep3d">description</a> Here are <a href="http://www.cs.rice.edu/~alc/superpages/">older benchmarks</a> where I found the starting point.<br />
+<img src="ASC_co_sm.jpg" alt="ASC Logo" /></p>
 <h2>Benchmarks</h2>
-<p><a href="https://www.epcc.ed.ac.uk/research/computing/performance-characterisation-and-benchmarking/epcc-openmp-micro-benchmark-suite">Benchmarks</a> for OpenMP.<br/><a href="https://www.nersc.gov/users/computational-systems/cori/nersc-8-procurement/trinity-nersc-8-rfp/nersc-8-trinity-benchmarks/snap/">SNAP</a> an update of Sweep3D, intended for hybrid computing architectures.</p>
+<p><a href="https://www.epcc.ed.ac.uk/research/computing/performance-characterisation-and-benchmarking/epcc-openmp-micro-benchmark-suite">Benchmarks</a> for OpenMP.<br />
+<a href="https://www.nersc.gov/users/computational-systems/cori/nersc-8-procurement/trinity-nersc-8-rfp/nersc-8-trinity-benchmarks/snap/">SNAP</a> an update of Sweep3D, intended for hybrid computing architectures.</p>
 <h2>Tools</h2>
 <p><a href="http://www.scalasca.org/software/scalasca-2.x/download.html">Scalasca 2.x series</a></p>
 <h2>Future work</h2>
@@ -74,7 +76,8 @@
 <p>Cosmological simulation <a href="http://www.mpa-garching.mpg.de/gadget/">GADGET - 2</a></p>
 <h1>Flame Graphs</h1>
 <p><a href="http://www.brendangregg.com/flamegraphs.html">Flame graphs</a> are a visualization of profiled software, allowing the most frequent code-paths to be identified quickly and accurately.</p>
-<p><img src="tcp-conn.svg" alt="Flame Graph" /> </p></p>
+<p><img src="tcp-conn.svg" alt="Flame Graph" /></p>
+</p>
 
 	<hr />
 
@@ -84,7 +87,7 @@
     
     <div id="footer">
       <div class="container">
-        <p class="muted credit">&copy; 2014 | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.1.1</a> | Baked with <a href="http://jbake.org">JBake v2.4.0</a></p>
+        <p class="muted credit">&copy; 2014 | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.1.1</a> | Baked with <a href="http://jbake.org">JBake v2.7.0</a></p>
       </div>
     </div>
     
