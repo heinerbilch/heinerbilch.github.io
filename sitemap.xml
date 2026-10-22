@@ -1,1 +1,15 @@
-successfully downloaded text file (SHA: 86b778e45ff4efa8443032ba1aa55030922a9fa7)
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>https://bilch.eu/about.html</loc>
+        <lastmod>2015-09-25</lastmod>
+    </url>
+    <url>
+        <loc>https://bilch.eu/index.html</loc>
+        <lastmod>2015-09-25</lastmod>
+    </url>
+    <url>
+        <loc>https://bilch.eu/blog/2015/sweep3d-benchmark.html</loc>
+        <lastmod>2015-08-25</lastmod>
+    </url>
+</urlset>
